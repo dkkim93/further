@@ -39,4 +39,4 @@ After changing the config argument, start training by:
 Lastly, to see the tensorboard logging during training:
 ```
 tensorboard --logdir=logs
-``
+```

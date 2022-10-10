@@ -1,0 +1,55 @@
+#################################################################################
+## ALGORITHM
+##################################################################################
+# Agent types (algorithms) to play with
+agent_types: ["further", "tabular_q"]
+
+# Learning rate for actor
+actor_lr: 0.0005
+
+# Learning rate for critic
+critic_lr: 0.002
+
+# Learning rate for gain
+gain_lr: 0.02
+
+# Learning rate for inference
+inference_lr: 0.002
+
+# Number of neurons for hidden network
+n_hidden: 32
+
+# Number of latent variables
+n_latent: 5
+
+# Max norm gradient clipping value in optimization
+max_grad_clip: 1000.
+
+# Weight for entropy
+entropy_weight: 0.4
+
+# Soft update for target network
+polyak: 0.99
+
+# Max timestep to train agents
+max_timestep: 50000
+
+
+#################################################################################
+## REPLAY BUFFER
+##################################################################################
+# Sampling method for training actor and critic [random, all, recent]
+sampling_mode: "recent"
+
+# Number of samples to use for each train iteration
+batch_size: 256
+
+
+#################################################################################
+## ENV
+##################################################################################
+# OpenAI gym environment name
+env_name: "IBS-v0"
+
+# Episode is terminated when max timestep is reached
+ep_horizon: 150

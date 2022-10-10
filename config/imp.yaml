@@ -1,0 +1,49 @@
+#################################################################################
+## ALGORITHM
+##################################################################################
+# Agent types (algorithms) to play with
+agent_types: ["further", "lili"]
+
+# Learning rate for actor
+actor_lr: 0.001
+
+# Learning rate for critic
+critic_lr: 0.01
+
+# Learning rate for gain
+gain_lr: 0.05
+
+# Learning rate for inference
+inference_lr: 0.01
+
+# Number of neurons for hidden network
+n_hidden: 64
+
+# Number of latent variables
+n_latent: 5
+
+# Weight for entropy
+entropy_weight: 0.35
+
+# Max timestep to train agents
+max_timestep: 1000000
+
+
+#################################################################################
+## REPLAY BUFFER
+##################################################################################
+# Sampling method for training actor and critic [random, all, recent]
+sampling_mode: "recent"
+
+# Number of samples to use for each train iteration
+batch_size: 64
+
+
+#################################################################################
+## ENV
+##################################################################################
+# OpenAI gym environment name
+env_name: "IMP-v0"
+
+# Episode is terminated when max timestep is reached
+ep_horizon: 150

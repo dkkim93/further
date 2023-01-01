@@ -43,7 +43,7 @@ tensorboard --logdir=logs
 
 ## Reference
 ```
-@inproceedings{kim2022influencing,
+@inproceedings{kim2022further,
 title={Influencing Long-Term Behavior in Multiagent Reinforcement Learning},
 author={Dong-Ki Kim and Matthew D Riemer and Miao Liu and Jakob Nicolaus Foerster and Michael Everett and Chuangchuang Sun and Gerald Tesauro and JONATHAN P HOW},
 booktitle={Advances in Neural Information Processing Systems},

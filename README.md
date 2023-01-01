@@ -40,3 +40,16 @@ Lastly, to see the tensorboard logging during training:
 ```
 tensorboard --logdir=logs
 ```
+
+## Reference
+```
+@inproceedings{
+kim2022influencing,
+title={Influencing Long-Term Behavior in Multiagent Reinforcement Learning},
+author={Dong-Ki Kim and Matthew D Riemer and Miao Liu and Jakob Nicolaus Foerster and Michael Everett and Chuangchuang Sun and Gerald Tesauro and JONATHAN P HOW},
+booktitle={Advances in Neural Information Processing Systems},
+editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+year={2022},
+url={https://openreview.net/forum?id=_S9amb2-M-I}
+}
+```
